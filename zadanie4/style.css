@@ -1,0 +1,71 @@
+body{
+	background-color:#000000;
+}
+
+#nawigacja {
+	height: 50px;
+	z-index: -2;
+}
+#map {
+	position: fixed;
+	margin: 2px;
+	z-index: -1;
+}
+
+#zarzadzajWMS{
+	z-index: 1;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	
+}
+
+ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:2em;
+  line-height:2em;
+  text-align:center;
+  z-index: 1;
+  
+}
+
+ol > li {
+  float:left;
+  background-color:#FDD700;
+  width:150px;
+  border:solid 1px black;
+}
+
+ol a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+
+
+ol > li:hover {
+  background-color:#EEE;
+  cursor: pointer;
+}
+
+.klikniety{
+	background-color: 	#FF8080;
+}
+
+#przeglad{
+	margin: 2px;
+	text-align: center;
+}
+
+span{
+	font-weight: bold;
+}
+.bliskieZagr{
+	color: red;
+	font-size: 125%;
+}

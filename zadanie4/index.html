@@ -1,0 +1,49 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>ZombieAlert.pl</title>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<link rel="stylesheet" href="style.css" />
+		
+		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script type='text/javascript' src='skrypt.js'></script>
+		<script src="http://code.jquerygeo.com/jquery.geo-1.0b1.min.js"></script>
+	</head>
+	
+	<body>
+			<ol class="kategorie">
+				<li id="zagrozenie"><a>Dodaj zagrożenie</a>
+					<ol>
+						<li id="dodPunkt">Dodaj punkt</li>
+						<li id="dodOkrag">Dodaj okrąg</li>
+						<li id="dodPoligon">Dodaj poligon</li>
+					</ol>
+				</li>
+				<li id="wms"><a>WMS</a>
+					<ol>
+						<li id="przyciskZarzadzajWMS">Zarządzaj warstawami</li>
+					</ol>
+				</li>
+				<li id="wskazPozycje">Wskaż pozycję</li>
+				<li id="przegladZagrozen">Przegląd zagrożeń</li>
+			</ol>
+		
+		<div id="map"></div>
+		<div id="zarzadzajWMS">
+			<ol>
+				<li id="wms0">Dyspozytornie medyczne</li>
+				<li id="wms1">Stacje Asg-Eupos</li>
+				<li id="wms2">Strefy zagrożenia</li>
+				<li id="zarzadzajOK">ok</li>
+			</ol>
+			
+		</div>
+		<div id="przeglad">
+			<button id="poprzedni">&lt;&lt;</button>
+			<span id="odl"></span>
+			<button id="nastepny">&gt;&gt;</button>
+		</div>
+	</body>
+</html>
